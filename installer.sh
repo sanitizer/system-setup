@@ -4,7 +4,7 @@ sudo apt upgrade;
 sudo apt install zsh;
 sudo apt-get install powerline fonts-powerline curl git xclip nodejs npm openjdk-11-jdk;
 npm install -g @vue/cli;
-curl -sL https://firebase.tools | zsh;
+curl -sL https://firebase.tools | bash;
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-syntax-highlighting" --depth 1;
 echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc";
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
